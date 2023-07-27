@@ -1,0 +1,239 @@
+.home{
+
+background-image: url(../images/bggg.jpg);
+background-size: cover;
+background-position: center;
+
+}
+.nav-transparent{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-color{
+    color: #ff206a;
+}
+
+.home-contant h1{
+    font-size: calc(3rem + 3vw);
+}
+
+.home-contant h1::after{
+    content: " ";
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-direction: alternate;
+     animation-iteration-count: infinite;
+}
+@keyframes typing{
+0%{
+    content: " W|";
+}
+10%{
+    content: "WE|";
+}
+20%{
+    content: "WEB|";
+}
+30%{
+    content: "|";
+}
+40%{
+    content: "D|";
+}
+50%{
+    content: "DE|";
+}
+60%{
+    content: "DES|";
+}
+70%{
+    content: "DESI|";
+}
+80%{
+    content: "DESIG|";
+}
+90%{
+    content: "DESIGN|";
+}
+100%{
+    content: "DESIGNER|";
+}
+
+
+}
+
+
+
+.about-me{
+    position: relative;
+    }
+    .about h2{
+        font-size: 100px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.1);
+        
+    }
+    .about h3{
+        padding-top: 20px;
+    }
+    
+    .text-about{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 35px ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black
+    }
+
+
+
+
+
+
+.social-icons{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.social-icons i{
+    margin: 5px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    color:white;
+}
+
+
+.protfile-me{
+    position: relative;
+    }
+    .protfile h2{
+        font-size: 100px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.1);
+        
+    }
+    .protfile h3{
+        padding-top: 20px;
+    }
+    
+    .text-protfile{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 35px ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black
+    }
+
+
+
+
+
+#myTabContent img{
+    width: 100%;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: none;
+    background-color: transparent;
+    color: #ff206a
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+border: none;
+}
+
+.nav-link{
+color: black;
+
+
+}
+.layer{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0%;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    transform: translateY(-100%);
+    transition: 1.5s;
+}
+.layer-parent:hover .layer{
+    transform: translateY(0px);
+}
+
+
+
+.testmonial-me{
+    position: relative;
+    }
+    .testmonial h2{
+        font-size: 100px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.1);
+        
+    }
+    .testmonial h3{
+        padding-top: 20px;
+    }
+    
+    .text-testmonial{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 35px ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black
+    }
+
+
+
+
+    .end img{
+        width: 100px;
+        border: 1px solid white;
+        border-radius: 50%;
+transform: translateY(-50%);
+    }
+
+    .carousel-indicators [data-bs-target]{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-image: url(../images/slidedr1.jpg);
+
+        background-size: 100% 100%;
+
+    }
+    .carousel-indicators {
+        bottom: -100px ;
+    }
+
+    .carousel-indicators [data-bs-slide-to="0"]{
+        background-image: url(../images/slidedr1.jpg);
+    }
+    .carousel-indicators [data-bs-slide-to="1"]{
+background-image: url(../images/slider2.jpg);
+    }
+    .carousel-indicators [data-bs-slide-to="2"]{
+        background-image: url(../images/slider3.jpg);
+    }
+    .carousel-indicators [data-bs-slide-to="3"]{
+background-image: url(../images/slider4.jpg);
+    }
+
+
+    .carousel-indicators .active{
+        transform: translateY(-5px);
+    }
